@@ -37,7 +37,7 @@ export type Post = {
 export const profile = {
   name: 'McDonald Musimwa',
   handle: 'mcdonald',
-  headshot: '/headshot.jpeg',
+  headshot: `${import.meta.env.BASE_URL}headshot.jpeg`,
   availability: 'open to DevOps roles',
   command: 'software_developer --migrate-to=devops',
   headline: 'I used to write the code. Now I ship it.',
